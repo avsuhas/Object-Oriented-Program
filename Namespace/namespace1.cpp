@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-namespace Subhash 
+namespace Suhas 
 {
 	int i;
 	void function( )
