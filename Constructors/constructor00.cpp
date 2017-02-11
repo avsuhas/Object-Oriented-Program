@@ -1,5 +1,3 @@
-
-
 #include <iostream>
 using namespace std;
 
@@ -10,14 +8,7 @@ class Book
 		int Pages;
 		double Price;
 	public:
-		Book( )
-		{
-			cout << "Constructor Called\n";
-			
-			strcpy(Author, "Subhash");
-			Pages = 600; 	
-			Price = 375.00;
-		}
+		Book( );
 
 		void QueryBookDetails( )
 		{
@@ -26,6 +17,15 @@ class Book
 			cout << "Price  : " << Price  << endl;
 		} 
 };
+
+Book :: Book( )
+{
+	cout << "Constructor Called\n";
+	
+	strcpy(Author, "Subhash");
+	Pages = 600; 	
+	Price = 375.00;
+}
 
 int main( )
 {
