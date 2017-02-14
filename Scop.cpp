@@ -1,6 +1,7 @@
 /* using of Scope resolution operator */
 
 
+
 #include <iostream>
 using namespace std;
 
