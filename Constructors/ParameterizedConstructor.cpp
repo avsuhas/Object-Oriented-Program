@@ -29,7 +29,6 @@ int main( )
 	Book Rit( "Ritchie", 250, 175.00 ); 
 	Book Sku( "Subhash", 600, 375.00 );
 
-
 	Rit.QueryBookDetails( );
 	cout << endl;
 	Sku.QueryBookDetails( );	
